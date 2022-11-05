@@ -3,9 +3,10 @@
 pipeline {
     agent any
     stages {
-        stage('xdddddd') {
+        stage('build') {
             steps {
                 bat 'python --version'
+                bat 'python task01.py'
             }
         }
     }
