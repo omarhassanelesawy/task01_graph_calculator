@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('xdddddd') {
             steps {
-                sh 'python --version'
+                bat 'python --version'
             }
         }
     }
