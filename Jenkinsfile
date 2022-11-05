@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'python --version'
+                sh 'python --version'
                 bat 'python task01.py'
             }
         }
