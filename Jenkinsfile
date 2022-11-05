@@ -3,9 +3,9 @@
 pipeline {
     agent any
     stages {
-        stage('git repo clone') {
+        stage('xdddddd') {
             steps {
-                git 'https://github.com/omarhaassaan/task01_graph_calculator'
+                sh 'pwd'
             }
         }
     }
