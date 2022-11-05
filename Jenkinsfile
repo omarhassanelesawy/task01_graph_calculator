@@ -8,10 +8,5 @@ pipeline {
                 git 'https://github.com/omarhaassaan/task01_graph_calculator'
             }
         }
-        stage('build') {
-            steps {
-                sh 'python --version'
-            }
-        }
     }
 }
